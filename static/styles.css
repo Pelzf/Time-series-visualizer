@@ -1,0 +1,14 @@
+/*pelz https://github.com/Pelzf*/
+.body-color {
+    background-image: linear-gradient(rgba(209, 215, 224, 0.4), rgba(219, 217, 234, 0.8)), url(bgcover.webp);
+}
+
+.darkbody-color {
+    background-image: linear-gradient(rgba(39, 39, 39, 0.4), rgba(33, 33, 35, 0.8)), url(bgcover.webp);
+    color: white;
+}
+
+body.darkbody-color .btn-outline-light {
+    color: white;
+    border-color: white;
+}
